@@ -11,30 +11,30 @@ body {
 .title {
     letter-spacing: 3px;
     margin-top: 0;
-    font-size: 32px; /* Default font size for desktop */
+    font-size: 24px; /* Default font size for desktop */
 }
 
 .tagline {
     margin-bottom: 5px;
-    font-size: 24px; /* Default font size for desktop */
+    font-size: 20px; /* Default font size for desktop */
 }
 
 .email {
     margin-top: 0;
-    font-size: 20px; /* Default font size for desktop */
+    font-size: 18px; /* Default font size for desktop */
 }
 
-/* Media query for mobile devices */
-@media (max-width: 600px) {
+/* Responsive styles for screens smaller than 600px */
+@media screen and (max-width: 600px) {
     .title {
-        font-size: 24px; /* Larger font size for mobile */
+        font-size: 30px; /* Larger font size for mobile */
     }
 
     .tagline {
-        font-size: 20px; /* Larger font size for mobile */
+        font-size: 26px; /* Larger font size for mobile */
     }
 
     .email {
-        font-size: 18px; /* Larger font size for mobile */
+        font-size: 22px; /* Larger font size for mobile */
     }
 }
