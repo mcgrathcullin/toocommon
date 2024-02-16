@@ -11,15 +11,30 @@ body {
 .title {
     letter-spacing: 3px;
     margin-top: 0;
-    font-size: 36px; /* Example size, adjust as needed */
+    font-size: 32px; /* Default font size for desktop */
 }
 
 .tagline {
     margin-bottom: 5px;
-    font-size: 24px; /* Example size, adjust as needed */
+    font-size: 24px; /* Default font size for desktop */
 }
 
 .email {
     margin-top: 0;
-    font-size: 20px; /* Example size, adjust as needed */
+    font-size: 20px; /* Default font size for desktop */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .title {
+        font-size: 24px; /* Larger font size for mobile */
+    }
+
+    .tagline {
+        font-size: 20px; /* Larger font size for mobile */
+    }
+
+    .email {
+        font-size: 18px; /* Larger font size for mobile */
+    }
 }
