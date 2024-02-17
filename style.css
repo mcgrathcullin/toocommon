@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box; /* Apply box-sizing to all elements */
+}
+
 body {
     background-color: #F2E9E4;
     color: #4A4E69;
     font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin */
 }
 
 .container {
