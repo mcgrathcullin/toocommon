@@ -1,12 +1,7 @@
-* {
-    box-sizing: border-box; /* Apply box-sizing to all elements */
-}
-
 body {
     background-color: #F2E9E4;
     color: #4A4E69;
     font-family: Arial, sans-serif;
-    margin: 0; /* Remove default margin */
 }
 
 .container {
@@ -16,18 +11,18 @@ body {
 .title {
     letter-spacing: 3px;
     margin-top: 0;
-    font-size: 24px;
+    font-size: 24px; /* Desktop font size */
     white-space: nowrap;
 }
 
 .tagline {
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 20px; /* Desktop font size */
 }
 
 .email {
     margin-top: 0;
-    font-size: 18px;
+    font-size: 18px; /* Desktop font size */
 }
 
 /* Responsive styles for mobile */
@@ -37,15 +32,15 @@ body {
     }
 
     .title {
-        font-size: 30px;
+        font-size: 26px; /* Smaller font size for mobile */
     }
 
     .tagline {
-        font-size: 26px;
+        font-size: 24px; /* Adjust if necessary for mobile */
         margin-bottom: 30px;
     }
 
     .email {
-        font-size: 22px;
+        font-size: 20px; /* Adjust if necessary for mobile */
     }
 }
