@@ -1,30 +1,21 @@
-body {
-    background-color: #F2E9E4;
-    color: #4A4E69;
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    padding: 20px;
-}
-
 .title {
     letter-spacing: 3px;
     margin-top: 0;
-    font-size: 24px; /* Default font size for desktop */
+    font-size: 24px; /* Adjust the font size as needed */
+    white-space: nowrap; /* Prevents the text from wrapping */
 }
 
 .tagline {
-    margin-bottom: 5px;
-    font-size: 20px; /* Default font size for desktop */
+    margin-bottom: 20px; /* Increase the bottom margin for more space */
+    font-size: 20px; /* Adjust the font size as needed */
 }
 
 .email {
     margin-top: 0;
-    font-size: 18px; /* Default font size for desktop */
+    font-size: 18px; /* Adjust the font size as needed */
 }
 
-/* Responsive styles for screens smaller than 600px */
+/* Responsive styles for mobile */
 @media screen and (max-width: 600px) {
     .title {
         font-size: 30px; /* Larger font size for mobile */
@@ -32,6 +23,7 @@ body {
 
     .tagline {
         font-size: 26px; /* Larger font size for mobile */
+        margin-bottom: 30px; /* Increase space between tagline and email on mobile */
     }
 
     .email {
