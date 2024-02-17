@@ -5,38 +5,42 @@ body {
 }
 
 .container {
-    padding: 20px;
+    padding: 20px; /* Existing padding for desktop */
 }
 
 .title {
     letter-spacing: 3px;
     margin-top: 0;
-    font-size: 24px; /* Adjust the font size as needed */
-    white-space: nowrap; /* Prevents the text from wrapping */
+    font-size: 24px;
+    white-space: nowrap;
 }
 
 .tagline {
-    margin-bottom: 20px; /* Increase the bottom margin for more space */
-    font-size: 20px; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .email {
     margin-top: 0;
-    font-size: 18px; /* Adjust the font size as needed */
+    font-size: 18px;
 }
 
 /* Responsive styles for mobile */
 @media screen and (max-width: 600px) {
+    .container {
+        padding: 30px; /* Increased padding for mobile */
+    }
+
     .title {
-        font-size: 30px; /* Larger font size for mobile */
+        font-size: 30px;
     }
 
     .tagline {
-        font-size: 26px; /* Larger font size for mobile */
-        margin-bottom: 30px; /* Increase space between tagline and email on mobile */
+        font-size: 26px;
+        margin-bottom: 30px;
     }
 
     .email {
-        font-size: 22px; /* Larger font size for mobile */
+        font-size: 22px;
     }
 }
